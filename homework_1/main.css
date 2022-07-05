@@ -30,7 +30,7 @@ img {
 
 }
 
-.mainBlockOfInformation>img{
+.mainBlockOfInformation > img {
 
     width: 400px;
     height: 300px;
@@ -51,7 +51,7 @@ img {
 
 }
 
-.mainBlockOfKrusty>img{
+.mainBlockOfKrusty > img {
 
     width: 350px;
     height: 500px;
@@ -59,7 +59,7 @@ img {
 }
 
 
-.mainBlockOfMilhouse{
+.mainBlockOfMilhouse {
 
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@ img {
     border: 5px solid #0077ff;
 }
 
-.mainBlockOfMilhouse>img{
+.mainBlockOfMilhouse > img {
 
     width: 200px;
     height: 400px;
@@ -79,7 +79,7 @@ img {
 
 }
 
-.mainBlockOfJaney{
+.mainBlockOfJaney {
 
 
     display: flex;
@@ -94,7 +94,7 @@ img {
 }
 
 
-.mainBlockOfJaney>img{
+.mainBlockOfJaney > img {
 
     width: 200px;
     height: 400px;
@@ -102,7 +102,7 @@ img {
 
 }
 
-.mainBlockOfCharles{
+.mainBlockOfCharles {
 
     display: flex;
     flex-direction: column;
@@ -116,33 +116,33 @@ img {
 }
 
 
-.mainBlockOfCharles>img{
+.mainBlockOfCharles > img {
 
     width: 200px;
     height: 350px;
 
 }
 
-h2>a {
+h2 > a {
 
     text-decoration: none;
 
 }
 
-h2>a:hover {
+h2 > a:hover {
 
     color: red;
 
 }
 
-h1,h2 {
+h1, h2 {
 
     margin-left: 40px;
 
 }
 
 
-ul>li {
+ul > li {
 
     margin-left: 30px;
 
