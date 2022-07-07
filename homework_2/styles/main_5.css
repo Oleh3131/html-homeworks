@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBlock {
+    width: 1000px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.firstBlock,.secondBlock,.thirdBlock,.fourthBlock,.fifthBlock,.sixthBlock {
+
+    display: flex;
+    width: 500px;
+
+}
+
+
+.firstBlockChild,.secondBlockChild,.thirdBlockChild,.fourthBlockChild,.fifthBlockChild,.sixthBlockChild {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
