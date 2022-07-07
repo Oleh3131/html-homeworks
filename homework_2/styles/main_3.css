@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainBlock {
+
+    width: 1000px;
+    height: 600px;
+    background: #34CD9E;
+
+}
+
+
+.firstBlock {
+
+    display: flex;
+    column-gap: 40px;
+    padding: 50px 40px 20px 40px;
+    box-sizing: border-box;
+
+}
+
+
+.description {
+
+    text-align: center;
+    color: white;
+
+}
+
+
+.name {
+
+    align-items: center;
+    color: #5AB8A0;
+    font-weight: bolder;
+
+}
+
+
+.firstChildrenBlock, .secondChildrenBlock, .thirdChildrenBlock {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background: #141E27;
+    row-gap: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+
+}
+
+img {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+.icon {
+
+    font-size: 46px;
+    color: #5AB8A0;
+
+}
+
+.secondBlock {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+
+}
+
+.firstGeneralization {
+
+    color: #141E27;
+    font-size: 50px;
+
+}
+
+.secondGeneralization {
+
+    color: #141E27;
+    font-size: 30px;
+
+}
+
+.toBold {
+
+    font-weight: bolder;
+
+}
+
