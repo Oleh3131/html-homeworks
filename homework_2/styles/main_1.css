@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBlock {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.firstBlock {
+
+    width: 560px;
+    height: 200px;
+    background: #2269BB;
+    text-align: center;
+    line-height: 200px;
+    vertical-align: center;
+    box-sizing: border-box;
+    margin: 10px;
+    color: white;
+    font-size: 32px;
+
+}
+
+.secondBlock {
+
+    display: flex;
+    width: 560px;
+    column-gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+.secondBlock > p {
+
+    width: 180px;
+    height: 220px;
+    background: #16457A;
+    text-align: center;
+    line-height: 220px;
+
+    /*визначає величину простору */
+    /*між строками, наприклад в тексті*/
+
+    vertical-align: center;
+
+    /*описує вертикальне позиціонування малих (inline), рядково-блочних (inline-block) */
+    /*елементів або осередків таблиці (table-cell)*/
+
+    color: white;
+    font-size: 20px;
+
+}
+
+.thirdBlock {
+
+
+    width: 560px;
+    height: 400px;
+    background: #2269BB;
+    text-align: center;
+    line-height: 400px;
+    vertical-align: center;
+    box-sizing: border-box;
+    margin: 10px;
+    color: white;
+    font-size: 32px;
+
+}
+
+
+
