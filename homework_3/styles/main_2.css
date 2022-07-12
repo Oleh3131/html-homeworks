@@ -1,0 +1,65 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.mainBlock {
+
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    background: #9FA5C5;
+
+}
+
+.headerBlocks {
+
+    width: 100%;
+    min-height: 200px;
+
+}
+
+.upperBlocks {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.box {
+
+    position: absolute;
+
+}
+
+
+.box > i {
+
+    font-size: 50px;
+
+}
+
+
+.mainThreeBlocks {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+.threeBlocks {
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+
+}
