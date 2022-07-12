@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.mainBlock {
+
+    width: 1000px;
+
+}
+
+
+.upperBlock {
+
+    display: flex;
+    justify-content: space-around;
+    background: #CED8E1;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+
+.header {
+
+    width: 200px;
+    height: 60px;
+    background: #102B3F;
+    border-radius: 10px;
+
+}
+
+.iconMainMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+.icon {
+
+    font-size: 25px;
+    color: #9FA5C5;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.mainMenu {
+
+    position: relative;
+    cursor: pointer;
+}
+
+.menu span {
+
+    display: inline-block;
+    width: 25px;
+    height: 5px;
+    background: #9FA5C5;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.menu span::before, .menu span::after {
+
+    content: '';
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #9FA5C5;
+    position: absolute;
+    border-radius: 5px;
+
+}
+
+.menu span::before {
+
+    top: 10px;
+
+}
+
+.menu span::after {
+
+    bottom: 10px;
+
+}
+
+
+.middle {
+    min-height: 300px;
+    background: #102B3F;
+    position: relative;
+}
+
+
+.middleBlock {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    position: absolute;
+    top: 225px;
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background: #6964E2;
+}
+
+.lowerBlock {
+
+    min-height: 200px;
+    background: #CED8E1;
+
+}
