@@ -1,0 +1,283 @@
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+
+.mainBlock {
+
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    min-height: 900px;
+    row-gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: blue;
+
+}
+
+.firstBlock {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 10px;
+    background: yellow;
+
+}
+
+
+h1 {
+
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+.secondBlock {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 600px;
+    column-gap: 20px;
+
+
+}
+
+.firstPart {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 20px;
+
+}
+
+.theFirstSubgroup {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 300px;
+    border: 5px solid yellow;
+    background: yellow;
+    border-radius: 10px;
+    box-sizing: border-box;
+    column-gap: 50px;
+
+}
+
+.theFirstSubgroup > img {
+
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+
+.theFirstSubgroup > h3 {
+
+    text-align: center;
+    width: 300px;
+    line-height: 34px;
+    font-size: 24px;
+
+}
+
+.theSecondSubgroup {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+
+.firstBox, .secondBox, .thirdBox {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    min-height: 300px;
+    background: yellow;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+.firstBox > img, .secondBox > img, .thirdBox > img {
+
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+
+.firstBox > h3, .secondBox > h3, .thirdBox > h3 {
+
+    text-align: center;
+    width: 250px;
+    line-height: 26px;
+    font-size: 16px;
+
+}
+
+
+.secondPart {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    min-height: 600px;
+    background: yellow;
+    border-radius: 10px;
+    box-sizing: border-box;
+    row-gap: 30px;
+
+}
+
+.fouthBox, .fifthBox {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.fouthBox > img, .fifthBox > img {
+
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+
+}
+
+
+.fouthBox > h3, .fifthBox > h3 {
+
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    width: 150px;
+
+}
+
+
+@media screen and (max-width: 1080px) and (min-width: 576px) {
+
+    .secondBlock {
+
+        flex-direction: column;
+        row-gap: 20px;
+
+    }
+
+    .secondPart {
+
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        min-height: 200px;
+
+    }
+
+
+    .fouthBox > h3, .fifthBox > h3 {
+
+        line-height: 18px;
+        width: 280px;
+
+    }
+
+
+    .fouthBox > img, .fifthBox > img {
+
+        width: 150px;
+        height: 100px;
+        border-radius: 10px;
+
+    }
+
+    .firstBlock {
+
+        min-height: 200px;
+
+    }
+
+    .theFirstSubgroup {
+
+        min-height: 500px;
+        flex-direction: column;
+
+    }
+
+    .theFirstSubgroup > img {
+
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+
+    }
+
+    .theFirstSubgroup > h3 {
+
+        font-size: 24px;
+
+    }
+
+    .firstBox, .secondBox, .thirdBox {
+
+        width: 25%;
+        min-height: 200px;
+        border-radius: 20%;
+
+    }
+
+    .theSecondSubgroup {
+
+        justify-content: space-between;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+
+
+    .firstBox > img, .secondBox > img, .thirdBox > img {
+
+        width: 150px;
+        height: 100px;
+
+    }
+
+    .firstBox > h3, .secondBox > h3, .thirdBox > h3 {
+
+        width: 150px;
+        line-height: 20px;
+        font-size: 14px;
+
+    }
+
+}
