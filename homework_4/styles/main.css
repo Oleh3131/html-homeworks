@@ -1,0 +1,127 @@
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.mainBlock {
+
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    min-height: 600px;
+    background: yellow;
+    border: 5px solid blue;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+
+}
+
+.firstBlock {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 200px;
+    border-bottom: 5px solid blue;
+
+}
+
+img {
+
+    width: 75px;
+    height: 150px;
+    cursor: pointer;
+
+}
+
+.secondBlock {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.firstPartOfBlock {
+
+    width: 75%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 5px solid blue;
+
+}
+
+
+.secondPartOfBlock {
+
+    width: 25%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.secondPartOfBlock > a {
+
+    display: block;
+    width: 150px;
+    height: 80px;
+    background: blue;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 36px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: 1000ms;
+
+}
+
+
+.secondPartOfBlock > a:hover {
+
+    color: red;
+    transition: 1500ms linear;
+
+}
+
+
+@media screen and (max-width: 1080px) and (min-width: 576px) {
+
+    .secondBlock {
+
+        flex-direction: column;
+
+    }
+
+    .firstPartOfBlock {
+
+        width: 100%;
+
+    }
+
+    .secondPartOfBlock {
+
+        width: 100%;
+        min-height: 200px;
+        border-top:5px solid blue;
+
+    }
+
+}
+
+
