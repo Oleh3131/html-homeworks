@@ -1,0 +1,246 @@
+
+body {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 740px;
+    background: #9FA5C5;
+    row-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header {
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.one {
+
+    width: 20%;
+    height: 100px;
+    background: #ffd81a;
+
+}
+
+.two {
+
+    width: 80%;
+    height: 100px;
+    background: #ffd81a;
+}
+
+
+.mediumBlock {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px;
+
+}
+
+.severalBlocks {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+.eightAndNine {
+
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    row-gap: 10px;
+
+}
+
+.three {
+
+    width: 120px;
+    height: 300px;
+    background: #ffd81a;
+
+}
+
+
+.eight, .nine {
+    width: 120px;
+    height: 100px;
+    background: #ffd81a;
+}
+
+.nextMediumBlock {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+.fourAndfive, .sixAndseven {
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+}
+
+.four {
+
+    width: 300px;
+    height: 150px;
+    background: #ffd81a;
+}
+
+.five {
+
+    width: 160px;
+    height: 150px;
+    background: #ffd81a;
+
+}
+
+.six {
+
+    width: 300px;
+    height: 360px;
+    background: #ffd81a;
+}
+
+.seven {
+
+    width: 160px;
+    height: 360px;
+    background: #ffd81a;
+
+}
+
+
+.lowerBlock {
+
+    width: 100%;
+    height: 100px;
+    background: #ffd81a;
+
+}
+
+h2, p {
+
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 1080px) and (min-height: 574px) {
+
+    .severalBlocks {
+
+        width: 100%;
+
+    }
+
+    .eightAndNine {
+
+        flex-direction: row;
+        width: 100%;
+        column-gap: 10px;
+
+    }
+
+    .three {
+
+        width: 100%;
+        height: 100px;
+
+    }
+
+    .eight, .nine {
+
+        width: 50%;
+        height: 100px;
+
+    }
+
+    .fourAndfive {
+
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+
+    .four {
+
+        width: 75%;
+        height: 200px;
+
+    }
+
+    .five {
+
+        width: 25%;
+        height: 200px;
+
+    }
+
+
+    .sixAndseven {
+
+        flex-direction: column;
+
+    }
+
+    .sixAndseven {
+
+        row-gap: 10px;
+
+    }
+
+    .six {
+
+        width: 100%;
+
+    }
+
+    .seven {
+
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .lowerBlock {
+
+        height: 200px;
+
+    }
+
+
+    .mainBlock {
+        width: 400px;
+        height: auto;
+
+    }
+
+
+    .nextMediumBlock {
+
+       width: 100%;
+
+    }
+
+}
